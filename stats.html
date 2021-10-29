@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/adaab820e8.js" crossorigin="anonymous"></script>
+    <title>Action Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="header5">
+        <nav>
+            <a href="home.html"> <img src="logo.png"></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="causes.html">CAUSES</a></li>
+                    <li><a href="action.html">ACTION</a></li>
+                    <li><a href="stats.html">STATS</a></li>
+                    <li><a href="news.html">NEWS</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="join.html">JOIN</a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <div class="text-box">
+        <h1>STATISTICS</h1>
+        <h3>The Numbers are rising than ever before...</h3>
+    </div><br><br>
+    <h1>TEMPERATURE</h1>
+    <div class="stats1">
+        <img src="stats1.png">
+        
+        <h3>The temperature has been rising continuously over the past 50 years as you can see in the graph.</h3>
+        <h3>The main reasons are:</h3>
+        <ul>
+            <li>Rising pollution</li>
+            <li>Increased use of vehicles</li>
+            <li>Hello</li>
+        </ul>
+    </div>
+    <br><br><br><br><br><br><br>
+   
+        <h1>TEMPERATURE</h1>
+        <div class="stats2">
+            <img src="stats2.png">
+            
+            <h3>The temperature has been rising continuously over the past 50 years as you can see in the graph.</h3>
+            <h3>The main reasons are:</h3>
+            <ul>
+                <li>Rising pollution</li>
+                <li>Increased use of vehicles</li>
+                <li>Hello</li>
+            </ul>
+        </div>
+        <br><br><br><br>
+    
+        <h1>TEMPERATURE</h1>
+        <div class="stats3">
+            <img src="stats3.png">
+            
+            <h3>The temperature has been rising continuously over the past 50 years as you can see in the graph.</h3>
+            <h3>The main reasons are:</h3>
+            <ul>
+                <li>Rising pollution</li>
+                <li>Increased use of vehicles</li>
+                <li>Hello</li>
+            </ul>
+        </div>
+        <br><br><br><br>
+        <h1>TEMPERATURE</h1>
+        <div class="stats4">
+            <img src="stats4.png">
+            
+            <h3>The temperature has been rising continuously over the past 50 years as you can see in the graph.</h3>
+            <h3>The main reasons are:</h3>
+            <ul>
+                <li>Rising pollution</li>
+                <li>Increased use of vehicles</li>
+                <li>Hello</li>
+            </ul>
+        </div>
+        <br><br><br><br>
+        <h1>TEMPERATURE</h1>
+        <div class="stats5">
+            <img src="stats5.png">
+            
+            <h3>The temperature has been rising continuously over the past 50 years as you can see in the graph.</h3>
+            <h3>The main reasons are:</h3>
+            <ul>
+                <li>Rising pollution</li>
+                <li>Increased use of vehicles</li>
+                <li>Hello</li>
+            </ul>
+        </div>
+        <br><br><br><br><br>
+        <h1>TEMPERATURE</h1>
+        <div class="stats6">
+            <img src="stats6.png">
+            
+            <h3>The temperature has been rising continuously over the past 50 years as you can see in the graph.</h3>
+            <h3>The main reasons are:</h3>
+            <ul>
+                <li>Rising pollution</li>
+                <li>Increased use of vehicles</li>
+                <li>Hello</li>
+            </ul>
+        </div>
+        <br><br><br><br>
+
+
+
+
+
+
+
+<script>window.smoothScroll = function(target) {
+    var scrollContainer = target;
+    do {
+        scrollContainer = scrollContainer.parentNode;
+        if (!scrollContainer) return;
+        scrollContainer.scrollTop += 1;
+    } while (scrollContainer.scrollTop == 0);
+
+    var targetY = 0;
+    do { 
+        if (target == scrollContainer) break;
+        targetY += target.offsetTop;
+    } while (target = target.offsetParent);
+
+    scroll = function(c, a, b, i) {
+        i++; if (i > 30) return;
+        c.scrollTop = a + (b - a) / 30 * i;
+        setTimeout(function(){ scroll(c, a, b, i); }, 20);
+    }
+    
+    scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
+}</script>
+
+
+</body>
+</html>
